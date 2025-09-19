@@ -33,7 +33,7 @@ export const RecommendationCard: React.FC<RecommendationCardProps> = ({ recommen
       <div className="flex-grow">
         <div className="flex justify-between items-start mb-4">
           <div>
-            <p className="text-sm font-semibold text-indigo-600">{brand}</p>
+            <p className="text-sm font-semibold text-blue-600">{brand}</p>
             <h3 className="text-2xl font-bold text-slate-900">{model}</h3>
           </div>
           <button onClick={onLike} className="p-2 rounded-full hover:bg-red-100 transition-colors">
@@ -46,15 +46,15 @@ export const RecommendationCard: React.FC<RecommendationCardProps> = ({ recommen
         <div className="space-y-4 text-slate-700">
           <div>
             <h4 className="font-semibold text-slate-800 mb-1">
-              <span className="text-indigo-500 mr-2">✓</span> 추천 이유
+              <span className="text-blue-500 mr-2">✓</span> 추천 이유
             </h4>
-            <p className="text-sm leading-relaxed bg-indigo-50/50 p-3 rounded-md">{recommendationReason}</p>
+            <p className="text-sm leading-relaxed bg-blue-50/50 p-3 rounded-md">{recommendationReason}</p>
           </div>
           <div>
             <h4 className="font-semibold text-slate-800 mb-1">
-              <span className="text-indigo-500 mr-2">✓</span> 주요 장점
+              <span className="text-blue-500 mr-2">✓</span> 주요 장점
             </h4>
-            <p className="text-sm leading-relaxed bg-indigo-50/50 p-3 rounded-md">{keyPros}</p>
+            <p className="text-sm leading-relaxed bg-blue-50/50 p-3 rounded-md">{keyPros}</p>
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@ export const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ recommendations,
             <p className="text-slate-500 mb-6">선택한 조건에 맞는 스마트폰을 찾지 못했습니다. 다른 조건으로 시도해보세요.</p>
             <button
                 onClick={onReset}
-                className="bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-indigo-700 transition-colors"
+                className="bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors"
             >
                 다시 추천받기
             </button>

@@ -1,4 +1,3 @@
-
 export interface Phone {
   brand: string;
   model: string;
@@ -56,3 +55,5 @@ export interface Recommendation {
   keyPros: string;
   priceRange: string;
 }
+
+export type ChartType = 'brand' | 'yearly' | 'flagship';

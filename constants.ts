@@ -1,4 +1,3 @@
-
 import type { PreferenceOption, Phone } from './types';
 
 export const PREFERENCE_OPTIONS: PreferenceOption[] = [
@@ -11,6 +10,21 @@ export const PREFERENCE_OPTIONS: PreferenceOption[] = [
   { id: 'usability', label: '사용성', description: '간단한 UI, 직관성' },
   { id: 'durability', label: '내구성', description: '방수/방진, 튼튼함' },
 ];
+
+export const BRAND_COLORS: { [key: string]: string } = {
+  'Apple': '#999999',
+  'Samsung': '#1428A0',
+  'Google': '#4285F4',
+  'Xiaomi': '#FA6700',
+  'Huawei': '#FF0000',
+  'OnePlus': '#F00504',
+  'OPPO': '#008640',
+  'vivo': '#0072C5',
+  'Motorola': '#00A7E5',
+  'Nokia': '#124191',
+  'Default': '#8884d8',
+};
+
 
 export const PHONE_DATA: Phone[] = [
     {
