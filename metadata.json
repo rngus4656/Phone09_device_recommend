@@ -1,0 +1,5 @@
+{
+  "name": "AI Phone Recommender",
+  "description": "An intelligent web service that recommends the optimal smartphone based on user preferences like price, design, and camera performance, using a provided dataset and AI analysis.",
+  "requestFramePermissions": []
+}
